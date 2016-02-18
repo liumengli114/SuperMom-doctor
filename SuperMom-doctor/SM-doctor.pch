@@ -1,0 +1,25 @@
+//
+//  SM-doctor.pch
+//  
+//
+//  Created by Air on 15/12/10.
+//
+//
+
+#ifndef _SM_doctor_pch
+#define _SM_doctor_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//常用的宏定义
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "SMCommon.h"
+#import "SMUrl.h"
+#import "AFNetworking.h"
+#import "MMHAssistant.h"
+#import "JSONKit.h"
+#import "UserManager.h"
+#import "SVProgressHUD.h"
+
+#endif
